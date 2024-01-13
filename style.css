@@ -1,0 +1,84 @@
+html {
+    background-color:rgb(150, 246, 246);
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    color: #fb4300;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ff6026;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#start-button {
+    background-color:#ff4eb5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    color: #61f266;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:"Arial Bold", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    background-color: rgb(255, 238, 109);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.tetromino {
+    background-color: rgb(0, 102, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 238, 109);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+  
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.button {
+    margin-top: 20px; /* Adjust the margin for spacing */
+    background-color: #4caf50; /* Add your desired button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
